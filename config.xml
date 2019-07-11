@@ -15,9 +15,11 @@
     <preference name="SplashScreenDelay" value="3000" />  
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" /> 
+
     <allow-navigation href="https://*youtube.com/*"/>
     <icon src="icon.png" />
     <splash src="" />
+
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
