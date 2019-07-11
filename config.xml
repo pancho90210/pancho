@@ -16,7 +16,8 @@
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" /> 
     <allow-navigation href="https://*lk.guideh.com/*"/>
-    
+    <icon src="www/icon.png" />
+    <splash src="www/splash.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
