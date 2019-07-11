@@ -5,7 +5,7 @@
  
  
  
- .knopka{    background-color: #003d77;
+ .knopka{background-color: #337ab7;
     border-color: #2e6da4;
     display: inline-block;
     padding: 6px 12px;
@@ -26,34 +26,8 @@
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    }
+    border-radius: 4px;}
 	
 	section{text-align:center;}
 	
 	.padding5{padding:5px;}
-	
-	
-	.bord-bott {
-    border-bottom: 1px solid #ecebeb;
-    margin-top: 60px;
-}
-
-.listnone li {
-margin-left: 50px;}
-	
-
-.listnone li {
-list-style: none;
-text-align: left;
-
-}
-
-.btn-primary {
-   
-    margin-top: 25px;
-}
-
-.col-title {
-    padding: 10px;
-	
-}
