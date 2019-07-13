@@ -43,10 +43,33 @@
         <param name='onload' value='true'/>
     </feature>
     <preference name='DisallowOverscroll' value='true'/>
-    <preference name='android-minSdkVersion' value='14'/>
-    <preference name='SplashScreenDelay' value='3000'/>
-    <preference name='AutoHideSplashScreen' value='true'/>
-    <preference name='SplashMaintainAspectRatio' value='true'/>
+    <preference name='android-minSdkVersion' value='25'/>
+    
+    <!--Android Preferences-->
+<preference name="KeepRunning" value="false"/> 
+
+<preference name="LoadUrlTimeoutValue" value="10000"/>
+
+<preference name="SplashScreen" value="mySplash"/>
+
+<preference name="SplashScreenDelay" value="10000"/>
+
+<preference name="InAppBrowserStorageEnabled" value="true"/>
+
+<preference name="LoadingDialog" value="My Title,My Message"/>
+
+<preference name="LoadingPageDialog" value="My Title,My Message"/>
+
+<preference name="ErrorUrl" value="myErrorPage.html"/>
+
+<preference name="ShowTitle" value="true"/>
+
+<preference name="LogLevel" value="VERBOSE"/>
+
+<preference name="SetFullscreen" value="false"/>
+
+<preference name="AndroidLaunchMode" value="singleTop"/>
+    
     <allow-navigation href='https://*youtube.com/*'/>
     <allow-intent href='http://*/*'/>
     <allow-intent href='https://*/*'/>
